@@ -12,7 +12,7 @@ This action implements `POST` request to `/repos/{owner}/{repo}/deployments/{dep
 # Quick start
 
 ```yaml
-- uses: maxkomarychev/oction-create-deployment-status@v0.6.1
+- uses: maxkomarychev/oction-create-deployment-status@v0.7.1
   id: my_step_id
   with:
     token: <token value>
@@ -48,11 +48,12 @@ This action implements `POST` request to `/repos/{owner}/{repo}/deployments/{dep
 |id|`id` field of the response (if exists)|
 |number|`number` field of the response (if exists)|
 
-# Friendly octions:
+# Friendly octions
 
 * [oction-create-deployment-status](https://github.com/maxkomarychev/oction-create-deployment-status)
 * [oction-create-deployment](https://github.com/maxkomarychev/oction-create-deployment)
-* [create-issue-oction](https://github.com/maxkomarychev/create-issue-oction)
+* [oction-create-issue](https://github.com/maxkomarychev/oction-create-issue)
 * [oction-create-release](https://github.com/maxkomarychev/oction-create-release)
 * [oction-lock-issue](https://github.com/maxkomarychev/oction-lock-issue)
+* [oction-merge-pull-request](https://github.com/maxkomarychev/oction-merge-pull-request)
 * [oction-unlock-issue](https://github.com/maxkomarychev/oction-unlock-issue)
